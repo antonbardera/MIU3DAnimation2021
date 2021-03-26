@@ -29,7 +29,7 @@ function setPage(n){
     shownData.forEach(element => {
         titlename += `<li><p><strong>Clip Number</strong>: ${element.clipNumber} </br>
         <strong>Author</strong>: ${element.author} </p>
-        <iframe width="560" height="315" src="${element.linkYT}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        <iframe width="560" height="315" src="${element.linkYT}" frameborder="0" allow="autoplay; gyroscope" allowfullscreen>
         </iframe></li>`
     });
     titlename += "</ul>";
