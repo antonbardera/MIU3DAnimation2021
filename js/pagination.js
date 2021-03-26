@@ -6,7 +6,7 @@ let numberpages;
 let currentpage;
 
 async function fetchListJSON() {
-    const response = await fetch('https://raw.githubusercontent.com/antonbardera/Multimedia/main/data/videoList.json');
+    const response = await fetch('./data/videoList.json');
     const data = await response.json();
     return data;
   }
